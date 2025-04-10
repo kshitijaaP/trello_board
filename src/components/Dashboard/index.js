@@ -72,8 +72,17 @@ export default function Dashboard() {
       />
 
       <div style={{ flex: "0.9" }}>
-        {savedList.length > 0 && (
+        {savedList.length > 0 ? (
           <ListCard list={savedList} updateList={updateList} />
+        ) : (
+          <div className={styles.centerWrapper}>
+            <button
+              onClick={() => setOpen(true)}
+              className={styles.centerAddNew}
+            >
+              Let's Start by Adding New List
+            </button>
+          </div>
         )}
       </div>
 

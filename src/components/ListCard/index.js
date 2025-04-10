@@ -304,7 +304,7 @@ function DroppableContainer({ id, children }) {
     <div
       ref={setNodeRef}
       style={{
-        minHeight: hasChildren ? undefined : "40px", // reserve space for empty drop zone
+        minHeight: hasChildren ? undefined : "40px",
         padding: "4px",
         background: isOver || hasChildren ? "#f5f5f5" : "transparent",
         borderRadius: "8px",
@@ -324,7 +324,7 @@ function DroppableContainer({ id, children }) {
 function SortableItem({ card, listIndex, updateCardData, deleteCardData }) {
   const { attributes, listeners, setNodeRef, transform, transition } =
     useSortable({
-      id: card.title, // still use title as ID
+      id: card.title,
       data: { listIndex },
     });
 

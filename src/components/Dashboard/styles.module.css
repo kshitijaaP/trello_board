@@ -43,3 +43,24 @@
   justify-content: space-between;
   margin-top: 20px;
 }
+.centerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.centerAddNew {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #e75480;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.centerAddNew:hover {
+  background-color: #005a8d;
+}
