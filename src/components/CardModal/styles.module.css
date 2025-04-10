@@ -1,0 +1,19 @@
+.deleteBtn {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+.saveBtn {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.cancelBtn {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+}

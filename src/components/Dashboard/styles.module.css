@@ -1,0 +1,45 @@
+.container {
+  background-color: #ffffc3;
+  padding: 20px;
+}
+.rowcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newlistBtn {
+  background-color: #7393b3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  width: 130px;
+}
+.resetlistBtn {
+  background-color: #7393b3;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  margin-left: 20px;
+  width: 130px;
+}
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1;
+}
+.footer {
+  background-color: beige;
+  border-top: 1px solid #ddd;
+  color: #666;
+  font-size: 14px;
+  flex: 0.1;
+}
+
+.footerContent {
+  max-width: 1200px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
